@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class com.koolping.rest.user.MailSenderServiceTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.koolping.rest.user.MailSenderServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.koolping.rest.user.html">com.koolping.rest.user</a> &gt; MailSenderServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.860s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">sendLostPasswordEmail</td>
+<td>5.811s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sendRegistrationEmail</td>
+<td>0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sendVerificationEmail</td>
+<td>0.026s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>logbak: 12:12:54.056 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/root-context.xml]
+logbak: 12:12:54.120 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/component-scan-context.xml]
+logbak: 12:12:54.427 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/social-configuration-context.xml]
+logbak: 12:12:54.473 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/email-services-context.xml]
+logbak: 12:12:54.814 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/data-context.xml]
+logbak: 12:12:55.453 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/spring/email-template-context.xml]
+logbak: 12:12:55.477 o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@5a87c958: startup date [Mon May 26 12:12:55 BST 2014]; root of context hierarchy
+logbak: 12:12:55.594 o.s.i.c.x.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+logbak: 12:12:55.596 o.s.i.c.x.DefaultConfiguringBeanFactoryPostProcessor - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+logbak: 12:12:55.741 o.s.c.s.GenericApplicationContext - Bean 'database' of type [class org.apache.commons.dbcp.BasicDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 12:12:55.933 o.s.c.s.GenericApplicationContext - Bean 'dataSource' of type [class org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 12:12:55.951 o.s.c.s.GenericApplicationContext - Bean 'org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter#2fa4049d' of type [class org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 12:12:55.964 o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'samplePersistenceUnit'
+logbak: 12:12:56.101 o.h.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+logbak: 12:12:56.107 org.hibernate.cfg.Environment - Hibernate 3.6.7.Final
+logbak: 12:12:56.110 org.hibernate.cfg.Environment - hibernate.properties not found
+logbak: 12:12:56.115 org.hibernate.cfg.Environment - Bytecode provider name : javassist
+logbak: 12:12:56.119 org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+logbak: 12:12:56.190 org.hibernate.ejb.Version - Hibernate EntityManager 3.6.7.Final
+logbak: 12:12:56.206 org.hibernate.ejb.Ejb3Configuration - Processing PersistenceUnitInfo [
+	name: samplePersistenceUnit
+	...]
+logbak: 12:12:56.288 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.koolping.rest.user.domain.User
+logbak: 12:12:56.322 o.h.cfg.annotations.EntityBinder - Bind entity com.koolping.rest.user.domain.User on table rest_user
+logbak: 12:12:56.420 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.koolping.rest.user.domain.SocialUser
+logbak: 12:12:56.422 o.h.cfg.annotations.EntityBinder - Bind entity com.koolping.rest.user.domain.SocialUser on table social_user
+logbak: 12:12:56.437 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.koolping.rest.user.domain.SessionToken
+logbak: 12:12:56.438 o.h.cfg.annotations.EntityBinder - Bind entity com.koolping.rest.user.domain.SessionToken on table rest_session_token
+logbak: 12:12:56.444 org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.koolping.rest.user.domain.VerificationToken
+logbak: 12:12:56.445 o.h.cfg.annotations.EntityBinder - Bind entity com.koolping.rest.user.domain.VerificationToken on table rest_verification_token
+logbak: 12:12:56.460 o.h.cfg.annotations.CollectionBinder - Mapping collection: com.koolping.rest.user.domain.User.sessions -&gt; rest_session_token
+logbak: 12:12:56.462 o.h.cfg.annotations.CollectionBinder - Mapping collection: com.koolping.rest.user.domain.User.socialUsers -&gt; social_user
+logbak: 12:12:56.462 o.h.cfg.annotations.CollectionBinder - Mapping collection: com.koolping.rest.user.domain.User.verificationTokens -&gt; rest_verification_token
+logbak: 12:12:56.465 org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+logbak: 12:12:56.522 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.1.Final
+logbak: 12:12:56.718 o.h.c.s.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+logbak: 12:12:56.727 o.h.c.ConnectionProviderFactory - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+logbak: 12:12:56.732 o.h.e.c.InjectedDataSourceConnectionProvider - Using provided datasource
+logbak: 12:12:56.772 org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5Dialect
+logbak: 12:12:56.783 o.h.engine.jdbc.JdbcSupportLoader - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+logbak: 12:12:56.784 org.hibernate.cfg.SettingsFactory - Database -&gt;
+       name : H2
+    version : 1.3.154 (2011-04-04)
+      major : 1
+      minor : 3
+logbak: 12:12:56.784 org.hibernate.cfg.SettingsFactory - Driver -&gt;
+       name : H2 JDBC Driver
+    version : 1.3.154 (2011-04-04)
+      major : 1
+      minor : 3
+logbak: 12:12:56.787 o.h.t.TransactionFactoryFactory - Using default transaction strategy (direct JDBC transactions)
+logbak: 12:12:56.789 o.h.t.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+logbak: 12:12:56.790 org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+logbak: 12:12:56.790 org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+logbak: 12:12:56.790 org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+logbak: 12:12:56.790 org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+logbak: 12:12:56.791 org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+logbak: 12:12:56.791 org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+logbak: 12:12:56.791 org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+logbak: 12:12:56.795 org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+logbak: 12:12:56.795 org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+logbak: 12:12:56.795 org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+logbak: 12:12:56.796 org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+logbak: 12:12:56.796 org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+logbak: 12:12:56.796 org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+logbak: 12:12:56.800 o.h.h.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+logbak: 12:12:56.800 org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+logbak: 12:12:56.800 org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+logbak: 12:12:56.800 org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+logbak: 12:12:56.800 org.hibernate.cfg.SettingsFactory - Query cache: disabled
+logbak: 12:12:56.801 org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+logbak: 12:12:56.803 org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+logbak: 12:12:56.803 org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+logbak: 12:12:56.809 org.hibernate.cfg.SettingsFactory - Statistics: disabled
+logbak: 12:12:56.809 org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+logbak: 12:12:56.809 org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+logbak: 12:12:56.809 org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+logbak: 12:12:56.810 org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+logbak: 12:12:56.828 o.hibernate.impl.SessionFactoryImpl - building session factory
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@2d6447d2
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@12a74346
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@2331b23b
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@161d451d
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@c5d4e0f
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@c5d4e0f
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@79b03d90
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@79b03d90
+logbak: 12:12:56.835 org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@2199f75a
+logbak: 12:12:57.080 o.h.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+logbak: 12:12:57.086 o.h.tool.hbm2ddl.SchemaUpdate - Running hbm2ddl schema update
+logbak: 12:12:57.086 o.h.tool.hbm2ddl.SchemaUpdate - fetching database metadata
+logbak: 12:12:57.093 o.h.tool.hbm2ddl.SchemaUpdate - updating schema
+logbak: 12:12:57.188 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: rest_session_token
+logbak: 12:12:57.190 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: rest_user
+logbak: 12:12:57.192 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: rest_verification_token
+logbak: 12:12:57.197 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: social_user
+logbak: 12:12:57.199 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: rest_session_token
+logbak: 12:12:57.201 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: rest_user
+logbak: 12:12:57.203 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: rest_verification_token
+logbak: 12:12:57.205 o.h.tool.hbm2ddl.DatabaseMetadata - table not found: social_user
+logbak: 12:12:57.231 o.h.tool.hbm2ddl.SchemaUpdate - Unsuccessful: alter table rest_session_token add index FK453CC1E52A36A7AD (user_id), add constraint FK453CC1E52A36A7AD foreign key (user_id) references rest_user (id)
+logbak: 12:12:57.231 o.h.tool.hbm2ddl.SchemaUpdate - Unknown data type: &quot;FK453CC1E52A36A7AD&quot;; SQL statement:
+alter table rest_session_token add index FK453CC1E52A36A7AD (user_id), add constraint FK453CC1E52A36A7AD foreign key (user_id) references rest_user (id) [50004-154]
+logbak: 12:12:57.232 o.h.tool.hbm2ddl.SchemaUpdate - Unsuccessful: alter table rest_verification_token add index FKEF6745202A36A7AD (user_id), add constraint FKEF6745202A36A7AD foreign key (user_id) references rest_user (id)
+logbak: 12:12:57.232 o.h.tool.hbm2ddl.SchemaUpdate - Unknown data type: &quot;FKEF6745202A36A7AD&quot;; SQL statement:
+alter table rest_verification_token add index FKEF6745202A36A7AD (user_id), add constraint FKEF6745202A36A7AD foreign key (user_id) references rest_user (id) [50004-154]
+logbak: 12:12:57.232 o.h.tool.hbm2ddl.SchemaUpdate - Unsuccessful: alter table social_user add index FK8960295D2A36A7AD (user_id), add constraint FK8960295D2A36A7AD foreign key (user_id) references rest_user (id)
+logbak: 12:12:57.232 o.h.tool.hbm2ddl.SchemaUpdate - Unknown data type: &quot;FK8960295D2A36A7AD&quot;; SQL statement:
+alter table social_user add index FK8960295D2A36A7AD (user_id), add constraint FK8960295D2A36A7AD foreign key (user_id) references rest_user (id) [50004-154]
+logbak: 12:12:57.232 o.h.tool.hbm2ddl.SchemaUpdate - schema update complete
+logbak: 12:12:57.300 o.s.c.s.GenericApplicationContext - Bean 'entityManagerFactory' of type [class org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 12:12:57.352 o.s.c.s.GenericApplicationContext - Bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 12:12:57.356 o.s.c.s.GenericApplicationContext - Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 12:12:57.558 o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'taskScheduler'
+logbak: 12:12:57.572 o.s.i.g.GatewayProxyFactoryBean$MethodInvocationGateway - started emailServicesGateway
+logbak: 12:12:57.572 o.s.i.g.GatewayProxyFactoryBean - started emailServicesGateway
+logbak: 12:12:59.447 o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService  'sessionReaperScheduler'
+logbak: 12:12:59.464 o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase -2147483648
+logbak: 12:12:59.465 o.s.i.endpoint.EventDrivenConsumer - Adding {service-activator:emailVerficationMailSenderService} as a subscriber to the 'emailVerificationTokenSendChannel' channel
+logbak: 12:12:59.465 o.s.i.channel.DirectChannel - Channel 'emailVerificationTokenSendChannel' has 1 subscriber(s).
+logbak: 12:12:59.465 o.s.i.endpoint.EventDrivenConsumer - started emailVerficationMailSenderService
+logbak: 12:12:59.465 o.s.i.endpoint.EventDrivenConsumer - Adding {service-activator:emailRegistrationMailSenderService} as a subscriber to the 'emailRegistrationTokenSendChannel' channel
+logbak: 12:12:59.465 o.s.i.channel.DirectChannel - Channel 'emailRegistrationTokenSendChannel' has 1 subscriber(s).
+logbak: 12:12:59.465 o.s.i.endpoint.EventDrivenConsumer - started emailRegistrationMailSenderService
+logbak: 12:12:59.465 o.s.i.endpoint.EventDrivenConsumer - Adding {service-activator:emailLostPasswordSenderService} as a subscriber to the 'emailLostPasswordTokenSendChannel' channel
+logbak: 12:12:59.465 o.s.i.channel.DirectChannel - Channel 'emailLostPasswordTokenSendChannel' has 1 subscriber(s).
+logbak: 12:12:59.465 o.s.i.endpoint.EventDrivenConsumer - started emailLostPasswordSenderService
+logbak: 12:12:59.465 o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:emailVerificationLoggingChannel.adapter} as a subscriber to the 'emailVerificationLoggingChannel' channel
+logbak: 12:12:59.466 o.s.i.channel.DirectChannel - Channel 'emailVerificationLoggingChannel' has 1 subscriber(s).
+logbak: 12:12:59.466 o.s.i.endpoint.EventDrivenConsumer - started emailVerificationLoggingChannel.adapter
+logbak: 12:12:59.466 o.s.i.endpoint.EventDrivenConsumer - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+logbak: 12:12:59.466 o.s.i.c.PublishSubscribeChannel - Channel 'errorChannel' has 1 subscriber(s).
+logbak: 12:12:59.466 o.s.i.endpoint.EventDrivenConsumer - started _org.springframework.integration.errorLogger
+logbak: 12:12:59.466 o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+logbak: 12:12:59.466 o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+logbak: 12:12:59.469 o.s.i.endpoint.PollingConsumer - started emailVerificationRouter
+logbak: 12:12:59.535 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (1): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:12:59.765 c.k.r.u.m.impl.MailSenderServiceImpl - Sending lostPassword token to : AZovcHMW@example.com
+logbak: 12:12:59.860 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@42d442c3 testClass = MailSenderServiceTest, testInstance = com.koolping.rest.user.MailSenderServiceTest@7d6b327b, testMethod = sendLostPasswordEmail@MailSenderServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@8bf6991 testClass = MailSenderServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:12:59.866 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (2): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:12:59.880 c.k.r.u.m.impl.MailSenderServiceImpl - Sending emailVerification token to : AkHhemqE@example.com
+logbak: 12:12:59.890 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@42d442c3 testClass = MailSenderServiceTest, testInstance = com.koolping.rest.user.MailSenderServiceTest@537fcc3c, testMethod = sendVerificationEmail@MailSenderServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@8bf6991 testClass = MailSenderServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:12:59.893 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (3): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:12:59.905 c.k.r.u.m.impl.MailSenderServiceImpl - Sending emailRegistration token to : qtoPkLGR@example.com
+logbak: 12:12:59.913 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@42d442c3 testClass = MailSenderServiceTest, testInstance = com.koolping.rest.user.MailSenderServiceTest@d9c3a40, testMethod = sendRegistrationEmail@MailSenderServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@8bf6991 testClass = MailSenderServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.9</a> at 26-May-2014 12:13:10</p>
+</div>
+</div>
+</body>

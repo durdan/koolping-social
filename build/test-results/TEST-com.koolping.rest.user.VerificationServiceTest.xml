@@ -1,0 +1,22 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.koolping.rest.user.VerificationServiceTest" tests="16" failures="0" errors="0" timestamp="2014-05-26T11:13:00" hostname="Durgesh" time="0.131">
+  <properties/>
+  <testcase name="sendLostPasswordToken" classname="com.koolping.rest.user.VerificationServiceTest" time="0.03"/>
+  <testcase name="sendEmailToken" classname="com.koolping.rest.user.VerificationServiceTest" time="0.005"/>
+  <testcase name="resetPassword" classname="com.koolping.rest.user.VerificationServiceTest" time="0.01"/>
+  <testcase name="tokenNotFound" classname="com.koolping.rest.user.VerificationServiceTest" time="0.004"/>
+  <testcase name="resetPasswordGetNewToken" classname="com.koolping.rest.user.VerificationServiceTest" time="0.01"/>
+  <testcase name="tokenAlreadyVerified" classname="com.koolping.rest.user.VerificationServiceTest" time="0.015"/>
+  <testcase name="tokenHasExpired" classname="com.koolping.rest.user.VerificationServiceTest" time="0.008"/>
+  <testcase name="generateEmailToken" classname="com.koolping.rest.user.VerificationServiceTest" time="0.006"/>
+  <testcase name="verifyValidToken" classname="com.koolping.rest.user.VerificationServiceTest" time="0.005"/>
+  <testcase name="sendRegistrationToken" classname="com.koolping.rest.user.VerificationServiceTest" time="0.004"/>
+  <testcase name="userAlreadyVerified" classname="com.koolping.rest.user.VerificationServiceTest" time="0.008"/>
+  <testcase name="emailAddressNotFound" classname="com.koolping.rest.user.VerificationServiceTest" time="0.003"/>
+  <testcase name="sendLostPasswordTokenAgain" classname="com.koolping.rest.user.VerificationServiceTest" time="0.006"/>
+  <testcase name="generateEmailTokenAlreadyVerified" classname="com.koolping.rest.user.VerificationServiceTest" time="0.006"/>
+  <testcase name="generateEmailTokenAfterExpired" classname="com.koolping.rest.user.VerificationServiceTest" time="0.005"/>
+  <testcase name="generateEmailTokenAlreadyActive" classname="com.koolping.rest.user.VerificationServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

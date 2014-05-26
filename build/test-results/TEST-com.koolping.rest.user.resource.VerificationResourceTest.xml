@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.koolping.rest.user.resource.VerificationResourceTest" tests="2" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Durgesh" time="1.401102789363E9">
+  <properties/>
+  <testcase name="verify" classname="com.koolping.rest.user.resource.VerificationResourceTest" time="0.499"/>
+  <testcase name="generateEmailToken" classname="com.koolping.rest.user.resource.VerificationResourceTest" time="0.454"/>
+  <system-out><![CDATA[logbak: 12:13:08.418 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+logbak: 12:13:08.419 o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon May 26 12:13:08 BST 2014]; root of context hierarchy
+logbak: 12:13:08.420 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [integration-test-context.xml]
+logbak: 12:13:08.695 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 277 ms
+logbak: 12:13:08.906 o.s.w.c.s.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon May 26 12:13:08 BST 2014]; root of context hierarchy
+logbak: 12:13:08.919 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+logbak: 12:13:08.920 o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon May 26 12:13:08 BST 2014]; root of context hierarchy
+logbak: 12:13:08.921 o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [integration-test-context.xml]
+logbak: 12:13:08.999 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 80 ms
+logbak: 12:13:09.361 o.s.w.c.s.XmlWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon May 26 12:13:08 BST 2014]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[May 26, 2014 12:13:08 PM com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer <init>
+INFO: Creating Grizzly2 Web Container configured at the base URI http://localhost:9998/spring
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.servlet.ServletContextImpl log
+INFO: Initializing Spring root WebApplicationContext
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-16] Started.
+May 26, 2014 12:13:08 PM com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer start
+INFO: Starting the Grizzly2 Web Container...
+May 26, 2014 12:13:08 PM com.sun.jersey.spi.spring.container.servlet.SpringServlet getContext
+INFO: Using default applicationContext
+May 26, 2014 12:13:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, healthCheckResource, of type com.koolping.rest.resource.HealthCheckResource as a root resource class
+May 26, 2014 12:13:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, passwordResource, of type com.koolping.rest.user.resource.PasswordResource as a root resource class
+May 26, 2014 12:13:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, userResource, of type com.koolping.rest.user.resource.UserResource as a root resource class
+May 26, 2014 12:13:08 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, verificationResource, of type com.koolping.rest.user.resource.VerificationResource as a root resource class
+May 26, 2014 12:13:08 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9.1 09/14/2011 02:05 PM'
+May 26, 2014 12:13:08 PM com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer stop
+INFO: Stopping the Grizzly2 Web Container...
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.servlet.ServletContextImpl log
+INFO: Closing Spring root WebApplicationContext
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.http.server.NetworkListener stop
+INFO: Stopped listener bound to [localhost:9998]
+May 26, 2014 12:13:08 PM com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer <init>
+INFO: Creating Grizzly2 Web Container configured at the base URI http://localhost:9998/spring
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:9998]
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.servlet.ServletContextImpl log
+INFO: Initializing Spring root WebApplicationContext
+May 26, 2014 12:13:08 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer-17] Started.
+May 26, 2014 12:13:09 PM com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer start
+INFO: Starting the Grizzly2 Web Container...
+May 26, 2014 12:13:09 PM com.sun.jersey.spi.spring.container.servlet.SpringServlet getContext
+INFO: Using default applicationContext
+May 26, 2014 12:13:09 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, healthCheckResource, of type com.koolping.rest.resource.HealthCheckResource as a root resource class
+May 26, 2014 12:13:09 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, passwordResource, of type com.koolping.rest.user.resource.PasswordResource as a root resource class
+May 26, 2014 12:13:09 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, userResource, of type com.koolping.rest.user.resource.UserResource as a root resource class
+May 26, 2014 12:13:09 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, verificationResource, of type com.koolping.rest.user.resource.VerificationResource as a root resource class
+May 26, 2014 12:13:09 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9.1 09/14/2011 02:05 PM'
+May 26, 2014 12:13:09 PM com.sun.jersey.test.framework.spi.container.grizzly2.web.GrizzlyWebTestContainerFactory$GrizzlyWebTestContainer stop
+INFO: Stopping the Grizzly2 Web Container...
+May 26, 2014 12:13:09 PM org.glassfish.grizzly.servlet.ServletContextImpl log
+INFO: Closing Spring root WebApplicationContext
+May 26, 2014 12:13:09 PM org.glassfish.grizzly.http.server.NetworkListener stop
+INFO: Stopped listener bound to [localhost:9998]
+]]></system-err>
+</testsuite>

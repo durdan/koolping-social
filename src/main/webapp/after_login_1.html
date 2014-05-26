@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://avantegrate.com/dev/koolping/website/after_login.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Welcome</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="http://avantegrate.com/dev/koolping/website/css/normalize.css">
+	<link rel="stylesheet" href="http://avantegrate.com/dev/koolping/website/css/style.css">
+    <link rel="stylesheet" href="http://avantegrate.com/dev/koolping/website/css/responsive.css">
+
+    <link rel="stylesheet" href="http://avantegrate.com/dev/koolping/website/css/nav.css">
+[if lte IE 6]> 
+<script type="text/javascript" src="supersleight-min.js"></script> 
+<![endif] 
+
+
+
+
+</head>
+<body>
+
+
+     
+
+     
+
+<div id="wrapper">
+<div id="top">
+<div class="logo_left"><img src="./after_login_files/logo1.png" class="logo_all"></div>
+<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Profile</a></li>
+                        <li class="nav-item"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Movies</a></li>
+                        <li class="nav-item"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Restaurants</a></li>
+                        <li class="nav-item"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Cocktails</a></li>
+                        <li class="nav-item"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Reviews</a></li>
+                        <li class="nav-item"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Friends</a></li>
+                        <li class="nav-item"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Activity</a></li>
+
+					</ul>
+  <div class="nav-mobile"></div></nav>
+  </div>
+
+<div class="blue_line1">
+<div class="clr"></div></div>
+
+<div>
+  <div class="form_text_box">
+     <h4 id="name"></h4>
+        <div id="verified"></div>
+        <br>
+        <button class="small_button" type="submit" onclick="javaRest.user.logout();">Logout</button>
+	    </div>
+
+	    <!--footer-->
+	    <div id="footer">
+      </div>
+    <form id="tfnewsearch" method="get" action="http://avantegrate.com/dev/koolping/website/after_login.html#">
+          <input type="text" id="tfq" class="tftextinput2" name="q" size="21" maxlength="120" value="Search Nearby Location"><input type="submit" value=" " class="tfbutton2">
+    </form>
+    <div class="tfclear"></div>
+<div class="clr"></div></div>
+
+<div class="clr"></div>
+</div>
+
+<ul class="icons">
+  
+  <li><div class="icon"><img src="./after_login_files/ic_movies.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Movies</a></div></li>
+      
+    <li><div class="icon"><img src="./after_login_files/ic_resturant.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Restaurants</a></div></li>
+      
+    <li><div class="icon"><img src="./after_login_files/ic_coktails.png" class="social_ic"></div>
+    
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Cocktails</a></div></li>
+    
+      <li><div class="icon"><img src="./after_login_files/ic_reviews.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Reviews</a></div>
+      </li>
+      
+    <li><div class="icon"><img src="./after_login_files/ic_friends.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Friends</a></div>
+    </li>
+      
+    <li><div class="icon"><img src="./after_login_files/ic_favourites.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Favourites</a></div>
+    </li>
+    
+      <li><div class="icon"><img src="./after_login_files/ic_favourites.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Favourites</a></div>
+      </li>
+      
+    <li><div class="icon"><img src="./after_login_files/ic_activities.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Activity</a></div>
+    </li>
+      
+    <li><div class="icon"><img src="./after_login_files/ic_profile.png" class="social_ic"></div>
+    <div class="icon_text1"><a href="http://avantegrate.com/dev/koolping/website/after_login.html#">Profile</a></div>
+    </li>
+</ul>
+</div>
+ <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/sha256.js"></script>
+    <script src="js/enc-base64-min.js"></script>
+    <script src="js/javarest.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/user.js"></script>
+    <script type="text/javascript">
+
+    // Require user to be logged in
+    if (!javaRest.user.is_logged_in())
+      window.location = 'koolping.html'
+
+    $(document).ready(function () {
+
+
+      javaRest.user.get(function (error) {
+        if (error)
+          return console.log(error)
+        var name = javaRest.user.user.firstName + ' ' + (javaRest.user.user.lastName || '')
+        $('#name').html((name != ' ' ? name : javaRest.user.user.emailAddress))
+
+        // facebook pic
+        if (javaRest.user.user.socialProfiles.length && javaRest.user.user.socialProfiles[0].imageUrl) {
+          var image_url = javaRest.user.user.socialProfiles[0].imageUrl
+          $('#name').prepend('<img class="profilePhoto" src="' + image_url + '">&nbsp;&nbsp;&nbsp;&nbsp;')
+        }
+
+
+        if (javaRest.user.user.verified)
+          $('#verified').html('Email verified')
+        else
+          $('#verified').html('Email unverified <a href="request_email.html" style="color: blue;">Resend verification email.</a>')
+      })
+    })
+    </script>
+
+</body></html>

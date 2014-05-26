@@ -1,0 +1,116 @@
+
+/*------------------------------------*\
+    Flaunt JS Navigation
+\*------------------------------------*/
+
+	
+.nav {
+	position:relative;
+	display:inline-block;
+	font-size:16px;
+	font-family: 'Dosis', sans-serif, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin-top: 11px;
+}
+.nav-list {
+	text-align:left;
+}
+.nav-item {
+	float:left;
+	*display:inline;
+	zoom:1;
+	position:relative;
+}
+.nav-item a {
+	display:block;
+	color:#FFF;
+	background:#005d52;
+	border-bottom: 1px solid #069880;
+	padding-top: 11px;
+	padding-right: 20px;
+	padding-bottom: 11px;
+	padding-left: 20px;
+}
+.nav-item > a:hover {
+	background:#007567;
+}
+.nav-item:hover .nav-submenu {
+	display:block;
+}
+
+/* Mobile navigation */
+.nav-mobile {
+	display:none; /* Hide from browsers that don't support media queries */
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+	background-size:18px;
+	height:40px;
+	width:45px;
+	background-color: #015f51;
+	background-image: url(../images/nav-icon.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/* Mobile navigation, clickable area for revealing <ul> */
+.nav-click {
+	position:absolute;
+	top:0;
+	right:0;
+	display:none;
+	border-left:1px solid #fb434d;
+	height:49px;
+	width:50px;
+	cursor:pointer;
+}
+.nav-click i {
+	display:block;
+	height:48px;
+	width:48px;
+	background:url(../images/drop.svg) no-repeat center center;
+	background-size:20px;
+}
+.nav-click:hover {
+	background-color:#cc1a23;
+}
+
+
+/*------------------------------------*\
+    Media Queries
+\*------------------------------------*/
+
+@media only screen and (min-width: 180px) and (max-width: 1200px) {
+	.nav-mobile {
+		display:block;
+	}
+	.nav {
+		width:98.4%;
+		padding:50px 0 0;
+	}
+	.nav-list {
+		display:none;
+	}
+	.nav-item {
+		width:51%;
+		float:right;
+	}
+	.nav-item > a {
+		padding:15px;
+	}
+	.nav-click {
+		display:block;
+	}
+	.nav-mobile-open {
+		border-radius:5px 5px 0 0;
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+	}
+	.nav-item:hover .nav-submenu {
+		display:none;
+	}
+	.nav-submenu {
+		position:static;
+		width:100%;
+	}
+	

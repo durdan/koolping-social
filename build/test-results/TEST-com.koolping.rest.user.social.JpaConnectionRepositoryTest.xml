@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.koolping.rest.user.social.JpaConnectionRepositoryTest" tests="1" failures="0" errors="0" timestamp="2014-05-26T11:13:09" hostname="Durgesh" time="0.024">
+  <properties/>
+  <testcase name="findAllConnections" classname="com.koolping.rest.user.social.JpaConnectionRepositoryTest" time="0.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

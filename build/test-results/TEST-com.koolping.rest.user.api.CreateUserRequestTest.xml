@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.koolping.rest.user.api.CreateUserRequestTest" tests="4" failures="0" errors="0" timestamp="2014-05-26T11:13:00" hostname="Durgesh" time="0.041">
+  <properties/>
+  <testcase name="lastNameTooLong" classname="com.koolping.rest.user.api.CreateUserRequestTest" time="0.01"/>
+  <testcase name="firstNameTooLong" classname="com.koolping.rest.user.api.CreateUserRequestTest" time="0.009"/>
+  <testcase name="nullUser" classname="com.koolping.rest.user.api.CreateUserRequestTest" time="0.007"/>
+  <testcase name="validRequest" classname="com.koolping.rest.user.api.CreateUserRequestTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

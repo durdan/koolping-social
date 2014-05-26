@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class com.koolping.rest.user.UserServiceTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.koolping.rest.user.UserServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.koolping.rest.user.html">com.koolping.rest.user</a> &gt; UserServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">22</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.494s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">badNameRequest</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">cleanUpExpiredSessions</td>
+<td>0.090s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createDefaultUser</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createValidUser</td>
+<td>0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">duplicateUser</td>
+<td>0.025s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emailAddressAlreadyExists</td>
+<td>0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getMostRecentSession</td>
+<td>0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUserByEmailAddress</td>
+<td>0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getUserNotFound</td>
+<td>0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getValidUser</td>
+<td>0.030s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalidLoginRequestNullEmailAddress</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalidLoginRequestNullPassword</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalidPassword</td>
+<td>0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multipleLoginsGetDifferentSessionToken</td>
+<td>0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">nullEmailAndUsernameRequest</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">nullPasswordRequest</td>
+<td>0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">saveActiveSession</td>
+<td>0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUser</td>
+<td>0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUserWithInvalidEmailAddress</td>
+<td>0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">userNotAuthorizedToDelete</td>
+<td>0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">userNotFound</td>
+<td>0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">validLoginWithEmailAddress</td>
+<td>0.021s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>logbak: 12:13:00.088 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (1): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.127 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@344500bf, testMethod = cleanUpExpiredSessions@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.138 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (2): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.181 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@15cc9ec8, testMethod = updateUser@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.192 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (3): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.213 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@27112d2c, testMethod = getValidUser@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.223 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (4): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.240 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@6290f34d, testMethod = duplicateUser@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.249 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (5): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.252 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@103d6abe, testMethod = userNotFound@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.261 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (6): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.271 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@f85b3c2, testMethod = createValidUser@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.280 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (7): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.299 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@29783b83, testMethod = userNotAuthorizedToDelete@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.305 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (8): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.319 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@619db33e, testMethod = badNameRequest@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.324 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (9): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.340 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@550f14b5, testMethod = validLoginWithEmailAddress@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.347 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (10): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.358 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@36082557, testMethod = invalidPassword@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.366 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (11): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.390 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@7a5b2b1a, testMethod = getMostRecentSession@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.399 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (12): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.402 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@73ce3070, testMethod = nullEmailAndUsernameRequest@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.412 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (13): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.414 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@608e29c, testMethod = nullPasswordRequest@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.421 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (14): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.433 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@e08f131, testMethod = emailAddressAlreadyExists@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.443 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (15): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.447 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@720c1f32, testMethod = getUserNotFound@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.458 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (16): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.473 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@6d1e4208, testMethod = saveActiveSession@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.480 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (17): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.488 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@24d5f362, testMethod = getUserByEmailAddress@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.493 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (18): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.497 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@9442a44, testMethod = createDefaultUser@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.502 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (19): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.509 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@7803410d, testMethod = updateUserWithInvalidEmailAddress@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.515 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (20): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.516 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@171aa1cb, testMethod = invalidLoginRequestNullEmailAddress@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.522 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (21): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.536 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@25d50010, testMethod = multipleLoginsGetDifferentSessionToken@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.543 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (22): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.545 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@29598566 testClass = UserServiceTest, testInstance = com.koolping.rest.user.UserServiceTest@4b0aa66a, testMethod = invalidLoginRequestNullPassword@UserServiceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@1e341668 testClass = UserServiceTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.9</a> at 26-May-2014 12:13:10</p>
+</div>
+</div>
+</body>

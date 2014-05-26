@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.koolping.rest.filter.SecurityContextFilterTest" tests="4" failures="0" errors="0" timestamp="2014-05-26T11:12:50" hostname="Durgesh" time="0.093">
+  <properties/>
+  <testcase name="noHeadersInRequest" classname="com.koolping.rest.filter.SecurityContextFilterTest" time="0.041"/>
+  <testcase name="validAuthHeaders" classname="com.koolping.rest.filter.SecurityContextFilterTest" time="0.012"/>
+  <testcase name="dateHeaderIsOutOfRange" classname="com.koolping.rest.filter.SecurityContextFilterTest" time="0.007"/>
+  <testcase name="duplicateNonce" classname="com.koolping.rest.filter.SecurityContextFilterTest" time="0.033"/>
+  <system-out><![CDATA[logbak: 12:12:50.640 c.k.r.a.i.RequestSigningAuthorizationService - Date in header is out of range: 2014-05-26T12:02:50+01:00
+logbak: 12:12:50.674 c.k.r.a.i.RequestSigningAuthorizationService - Nonce value was not unique: 123
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

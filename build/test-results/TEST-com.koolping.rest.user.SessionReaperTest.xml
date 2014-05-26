@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.koolping.rest.user.SessionReaperTest" tests="2" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Durgesh" time="1.401102780027E9">
+  <properties/>
+  <testcase name="sessionsStillActive" classname="com.koolping.rest.user.SessionReaperTest" time="0.08"/>
+  <testcase name="sessionHasBeenReaped" classname="com.koolping.rest.user.SessionReaperTest" time="0.029"/>
+  <system-out><![CDATA[logbak: 12:12:59.939 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (1): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:12:59.995 com.koolping.rest.user.SessionReaper - Session reaper has removed 0 expired sessions
+logbak: 12:12:59.998 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@6b900bc7 testClass = SessionReaperTest, testInstance = com.koolping.rest.user.SessionReaperTest@3df56cfc, testMethod = sessionsStillActive@SessionReaperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3bc6342b testClass = SessionReaperTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+logbak: 12:13:00.001 o.s.t.c.t.TransactionalTestExecutionListener - Began transaction (2): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@25e3aac4]; rollback [true]
+logbak: 12:13:00.005 com.koolping.rest.user.SessionReaper - Session reaper has removed 0 expired sessions
+logbak: 12:13:00.020 com.koolping.rest.user.SessionReaper - Session reaper has removed 1 expired sessions
+logbak: 12:13:00.027 o.s.t.c.t.TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@6b900bc7 testClass = SessionReaperTest, testInstance = com.koolping.rest.user.SessionReaperTest@6d49108a, testMethod = sessionHasBeenReaped@SessionReaperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@3bc6342b testClass = SessionReaperTest, locations = '{classpath:META-INF/spring/root-context.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{dev}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

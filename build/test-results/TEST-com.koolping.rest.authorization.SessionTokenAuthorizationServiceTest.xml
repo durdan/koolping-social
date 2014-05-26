@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.koolping.rest.authorization.SessionTokenAuthorizationServiceTest" tests="3" failures="0" errors="0" timestamp="2014-05-26T11:12:50" hostname="Durgesh" time="0.015">
+  <properties/>
+  <testcase name="invalidSessionToken" classname="com.koolping.rest.authorization.SessionTokenAuthorizationServiceTest" time="0.004"/>
+  <testcase name="authorizeUser" classname="com.koolping.rest.authorization.SessionTokenAuthorizationServiceTest" time="0.004"/>
+  <testcase name="noSessionToken" classname="com.koolping.rest.authorization.SessionTokenAuthorizationServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

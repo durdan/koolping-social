@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class com.koolping.rest.authorization.RequestSigningAuthorizationServiceTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.koolping.rest.authorization.RequestSigningAuthorizationServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.koolping.rest.authorization.html">com.koolping.rest.authorization</a> &gt; RequestSigningAuthorizationServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.983s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">authorizeUser</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">dateOutOfRange</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalidSessionToken</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">invalidUnEncodedRequest</td>
+<td>0.943s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">missingNonce</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">nullSessionToken</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">wrongNonce</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>EMMA: collecting runtime coverage data ...
+EMMA: runtime controller started on port [47653]
+12:12:49,799 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+12:12:49,800 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+12:12:49,800 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/D:/dev/projects/koolping-social/build/resources/main/logback.xml]
+12:12:50,020 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+12:12:50,030 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+12:12:50,035 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+12:12:50,103 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+12:12:50,103 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+12:12:50,103 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+12:12:50,103 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.koolping.rest] to DEBUG
+12:12:50,103 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+12:12:50,104 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+12:12:50,104 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+12:12:50,106 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7d36d23 - Registering current configuration as safe fallback point
+
+logbak: 12:12:50.378 c.k.r.a.i.RequestSigningAuthorizationService - Hash check failed for hashed token: c9a42ae6-493e-43fb-9868-061ab458217f:4wkdavMmOz1tdkRjm3IlfzLFT4Tmu8qCRNnutX5eEpU= for the following request: hash123,1234,POST,2014-05-26T12:12:50+01:00,123 for user: null
+logbak: 12:12:50.484 c.k.r.a.i.RequestSigningAuthorizationService - Hash check failed for hashed token: c9a42ae6-493e-43fb-9868-061ab458217f:vaUXaTmT4O1KcUXkj3XXh0NqGc2OtE0BN0KlmlhBktI= for the following request: abcdef,POST,2014-05-26T12:12:50+01:00,123 for user: null
+logbak: 12:12:50.494 c.k.r.a.i.RequestSigningAuthorizationService - Date in header is out of range: 2014-05-26T11:52:50+01:00
+logbak: 12:12:50.517 c.k.r.a.i.RequestSigningAuthorizationService - Hash check failed for hashed token: c9a42ae6-493e-43fb-9868-061ab458217f:lVxCmUL6lk+R0koVbmRDh0MKO8lB2BHYvNI2QcHihWY= for the following request: hash123,123,POST,2014-05-26T12:12:50+01:00,567 for user: null
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.9</a> at 26-May-2014 12:13:10</p>
+</div>
+</div>
+</body>
